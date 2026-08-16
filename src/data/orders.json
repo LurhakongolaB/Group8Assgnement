@@ -1,4 +1,4 @@
-[
+H[
   {
     "orderId": "ORD-1001",
     "customerEmail": "alice@example.com",
@@ -37,6 +37,6 @@
     "status": "completed",
     "trackingNumber": "TRACK-1009" ,
     "estimatedDelivery": "2026-08-25",
-    "items": ["Blue Suit (35)"]
+    "items": ["completed (35)"]
   },
 ]
