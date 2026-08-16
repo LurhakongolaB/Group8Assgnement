@@ -1,0 +1,34 @@
+[
+  {
+    "orderId": "ORD-1001",
+    "customerEmail": "alice@example.com",
+    "status": "shipped",
+    "trackingNumber": "TRACK-9821",
+    "estimatedDelivery": "2026-08-18",
+    "items": ["Blue Sneakers (Size 8)", "White T-Shirt (M)"]
+  },
+  {
+    "orderId": "ORD-1002",
+    "customerEmail": "bob@example.com",
+    "status": "processing",
+    "trackingNumber": null,
+    "estimatedDelivery": "2026-08-20",
+    "items": ["Black Jeans (32)"]
+  },
+  {
+    "orderId": "ORD-1003",
+    "customerEmail": "carol@example.com",
+    "status": "delivered",
+    "trackingNumber": "TRACK-4453",
+    "estimatedDelivery": "2026-08-14",
+    "items": ["Running Shorts (L)", "Sports Socks x3"]
+  },
+  {
+    "orderId": "ORD-1004",
+    "customerEmail": "dave@example.com",
+    "status": "cancelled",
+    "trackingNumber": null,
+    "estimatedDelivery": null,
+    "items": ["Hoodie (XL)"]
+  }
+]

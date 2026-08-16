@@ -1,0 +1,21 @@
+{
+  "name": "group8assgnement",
+  "version": "1.0.0",
+  "description": "this is a ticketing system",
+  "homepage": "https://github.com/LurhakongolaB/Group8Assgnement#readme",
+  "bugs": {
+    "url": "https://github.com/LurhakongolaB/Group8Assgnement/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LurhakongolaB/Group8Assgnement.git"
+  },
+  "license": "ISC",
+  "author": "LurhakongolaB",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/chatbot.js",
+    "test": "node -e \"const {findOrder,buildStatusMessage}=require('./src/orderService');const o=findOrder('ORD-1001');console.assert(o,'order lookup failed');console.assert(buildStatusMessage(o).includes('shipped'),'status message wrong');console.log('order service: OK');const {buildReturnMessage,generalRefundInfo}=require('./src/returnsService');const r=buildReturnMessage(o);console.assert(r,'return message empty');console.log('returns service: OK');console.log('All checks passed.');\""
+  }
+}
